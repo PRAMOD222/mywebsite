@@ -1,0 +1,228 @@
+
+.navmain{
+    position: static;
+}
+
+.bgimg{
+    width: 100%;
+    height: 40rem;
+}
+
+.bg{
+    background-image:url('home_back.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40rem;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-items: center;
+}
+
+#hi{
+    color: rgb(255, 255, 255);
+    width: 10rem;
+    margin-left: 20rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+.title{
+    color: white;
+    width: 27rem;
+    margin-left: 20rem;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.spanh{
+    color: rgb(255, 187, 0);
+}
+.homepara{
+    color: white;
+    width: 30rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+.buttoncon{
+    width: 25rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 10rem;
+    border-radius: 20px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.b1{
+    background-color:  rgb(255, 166, 0);
+    color: white;
+    border: 1px solid rgb(255, 166, 0);
+}
+#idb1{
+    text-decoration: none;
+    color: white;
+}
+.b2{
+    background-color:  rgb(15, 15, 15);
+    color:rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    text-decoration: none;
+}
+
+.b1:hover{
+    background-color:rgb(92, 92, 92);
+}
+
+.b2:hover{
+    background-color:rgb(255, 166, 0);
+    color: white;
+    text-decoration: none;
+}
+/* css for about page */
+.about{
+    background-color:rgb(41, 39, 39) ;
+    
+}
+.abhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headtext1{
+    color: white;
+    font-size: 5rem;
+}
+.headtext2{
+    color: rgb(255, 166, 0);
+}
+.hsubtxt{
+    color: white;
+}
+.about2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    border-bottom: 2px solid rgb(255, 166, 0);
+}
+.abimg{
+    height: 20rem;
+    border-bottom: 5px solid rgb(255, 166, 0);
+    border-right: 5px solid rgb(255, 166, 0);
+}
+.tablekey{
+    color: white;
+    /* border: 2px solid white; */
+    margin: 30px 10px;
+}
+.tabledata{
+    color: rgb(221, 221, 221);
+    margin-left: 15px;
+}
+.about3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.edu{
+    width: 40%;
+    padding-left: 2rem;
+    border-left: 1px solid rgb(255, 166, 0);
+}
+.eduname{
+    color: rgb(255, 166, 0);
+    margin: 0;
+}
+.fname{
+    color: aliceblue;
+}
+.spe,.clg{
+    margin: 0;
+}
+.oneblock{
+    margin: 20px 0px;
+}
+.date{
+    display: list-item;
+}
+.about4{
+    color: white;
+    margin: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.ab4title{
+    color: white;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 166, 0);
+}
+.con4 {
+    width: 95%; 
+    background-color: #ddd; 
+  }
+  .skills {
+    text-align: right;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+  }
+  .html {
+    width: 80%; 
+    background-color: rgb(255, 166, 0);
+}
+  .css {
+    width: 75%; 
+    background-color: rgb(255, 166, 0);
+}
+  .js {
+    width: 65%; 
+    background-color: rgb(255, 166, 0);
+}
+  .react {
+    width: 50%; 
+    background-color: rgb(255, 166, 0);
+}
+  .c {
+    width: 80%; 
+    background-color: rgb(255, 166, 0);
+}
+  .cpp {
+    width: 70%; 
+    background-color: rgb(255, 166, 0);
+}
+  .py {
+    width: 60%; 
+    background-color: rgb(255, 166, 0);
+}
+  .git {
+    width: 90%; 
+    background-color: rgb(255, 166, 0);
+}
+  .node {
+    width: 60%; 
+    background-color: rgb(255, 166, 0);
+}
+
+.cvbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
