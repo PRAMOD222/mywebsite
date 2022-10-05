@@ -72,14 +72,14 @@
     color: white;
 }
 .b2{
-    background-color:  rgb(15, 15, 15);
+    background-color:  rgb(65, 64, 64);
     color:rgb(255, 166, 0);
     border: 1px solid rgb(255, 166, 0);
     text-decoration: none;
 }
 
 .b1:hover{
-    background-color:rgb(92, 92, 92);
+    background-color:rgb(65, 64, 64);
 }
 
 .b2:hover{
@@ -225,4 +225,70 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+.contact{
+    background-color: rgb(41, 39, 39);
+    color: white;
+}
+.conh{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.conhsub{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.conh1{
+    font-size: 4rem;
+}
+.conh2{
+    font-size: 4rem;
+    color: rgb(255, 166, 0);
+}
+.con1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+.coninfo{
+    margin: 0px 4rem;
+}
+.conform{
+    width: 40rem;
+    margin: 0px 4rem;
+}
+.fomb{
+    padding: 20px 0px;
+}
+.acc{
+    margin-top: 18px;
+}
+.formlable{
+    width: 49%;
+}
+.bot{
+    width: 1rem;
+}
+.msgend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.msgend1{
+    color: rgb(255, 166, 0);
+}
+.line{
+    border-bottom: 2px solid rgb(255, 166, 0);
+    margin-bottom: 2rem;
+}
+.linebg{
+    background-color: rgb(41, 39, 39);
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
